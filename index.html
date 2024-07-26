@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="head">
+        <h2>Guess the Random Number(between 1 to 100)</h2>
+    </div>
+    <div class="gamepanel">
+        <span><input type="text" class="input" placeholder="Guess a Number">
+        <div class="eval"></div></span>
+        <span><button class="btn">Submit Your Guess</button></span>
+        <div class="pguess">
+           <span> <h4>Previous Guess :</h4></span>
+           <div class="generate"></div>
+        </div>
+        <div class="pguess">
+           <span> <h4>Remaining Guess :</h4></span>
+           <div ><p id="gcount"></p></div>
+        </div>
+        <div class="display"></div>
+        <div class="btna">
+            <span><button class="new">New Game</button></span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
